@@ -34,7 +34,7 @@ bluetooth.hfp.client=1
 qcom.bluetooth.soc=rome
 qcom.bt.le_dev_pwr_class=1
 ro.bluetooth.hfp.ver=1.6
-# persist.bt.enableAptXHD=true
+persist.bt.enableAptXHD=true
 
 # CABL
 ro.qualcomm.cabl=0
