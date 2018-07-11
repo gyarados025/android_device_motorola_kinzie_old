@@ -5,7 +5,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/kinzie/device.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/aicp/configs/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/configs/common.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/motorola/kinzie/overlay
 
