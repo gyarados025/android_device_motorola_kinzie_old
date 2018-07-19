@@ -7,7 +7,7 @@ CPU     | Quad-Core 2.0 GHz ARM® Cortex™ A57 and quad-core 1.5 GHz ARM® Cort
 CHIPSET | Qualcomm MSM8994 Snapdragon 810
 GPU     | Qualcomm® Adreno™ 430 GPU
 Memory  | 3GB LPDDR4
-Shipped Android Version | 5.1.1
+Shipped Android Version | 5.1.1 / 6.0
 Storage | 32/64GB
 MicroSD | Up to 2TB
 Battery | 3760 mAh 
