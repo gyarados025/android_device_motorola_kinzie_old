@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/motorola/kinzie
 
+#SELinux Disabled
+BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
+
 # OTA
 TARGET_OTA_ASSERT_DEVICE := kinzie,kinzie_verizon,kinzie_reteu,kinzie_retcn_ds,kinzie_retla_ds,xt1581,xt1580,xt1585
 
@@ -126,7 +129,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := kinzie_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/motorola/msm8994
+TARGET_KERNEL_SOURCE := kernel/motorola/msm8992
 TARGET_USES_UNCOMPRESSED_KERNEL := true
 
 # Lights
