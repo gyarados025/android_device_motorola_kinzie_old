@@ -62,10 +62,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/com.motorola.cameraone.xml:system/etc/permissions/com.motorola.cameraone.xml
 
-# CMActions - Kicked! 
-#PRODUCT_PACKAGES += \
-#CMActions \
-#libjni_CMActions
+#CMActions  
+PRODUCT_PACKAGES += \
+CMActions \
+libjni_CMActions
 
 # Display
 PRODUCT_AAPT_CONFIG := normal
