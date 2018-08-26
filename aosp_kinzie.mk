@@ -19,3 +19,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT=motorola/kinzie_reteu/kinzie:7.0/NPKS25.200-12-9/6:user/release-keys \
+PRIVATE_BUILD_DESC="kinzie_reteu-user 7.0 NPKS25.200-12-9 6 release-keys"
